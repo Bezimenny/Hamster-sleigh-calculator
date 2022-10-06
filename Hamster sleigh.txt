@@ -25,7 +25,7 @@ int main()
     cin >> t;
     
     b = b * 10;
-    d = d * 10;
+    d = d * 9.8;
     P1 = b / t; 
     e = t * P1 / d; 
     cout << "Number of " << c << "s necessary to pull the " << a << " for " << t / 60 << "min is " << e << ".";
