@@ -14,4 +14,5 @@ lstreet = float(street) / 1000
 opower = float(oweight) * float(street) / float(time)
 anumber = float(opower) * float(time) / float(aweight)
 
-print("Number of " + str(animal) + "s necessary to pull the " + str(object) + " for " + str(float(lstreet)) + "km in " + str(round(htime)) + "min is " + str(round(anumber)))
+print("Number of " + str(animal) + "s necessary to pull the " + str(object) + " for " + str(float(lstreet)) + "km in " +
+      str(round(htime)) + "min is " + str(round(anumber)))
